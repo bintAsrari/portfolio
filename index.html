@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" contant="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title> Bint Asrari </title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+    <nav>
+        <a href="#" class="logo"><span>Bint Asrari</span></a>
+    
+
+    <ul class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </ul>
+
+    <i class='bx bx-menu-alt-right' id="menu"></i>
+
+    <a href="#contact" class="contact-btn">Contact Me</a>
+    
+    </nav>
+    
+    <!--HOME SECTION-->
+    <section id="home">
+        <img src="images/profile-pic.png" alt="">
+
+        <div class="info-box">
+            <h1><span>Hello, I'm Amirah</span></h1>
+            <h3><span>Software Developer</span></h3>
+            <p> A programmer based in Singapore! Welcome to my portfolio </p>
+        </div>
+
+        <div class="btn-box">
+            <div class="contact-btn"> <a href="#contact">Hire</a></div>
+            <div class="contact-btn"><a href="#contact">Contact Me </a></div>
+        </div>
+    </section>
+    
+
+    <!----ABOUT SECTION-->
+    <section id="about">
+
+        <div class="about-box">
+            <div class="about-info">
+                <h1><span>About Me</span></h1>
+                <p> Hi! I am a passionate software developer with experience in developing backend systems using Javascript and Python. I have expertise in building, testing, and maintaining both system applications and custom-built applications to increase user's efficiency. I am eager to learn more about this field and would like to deepen my knowledge in both frontend and backend programming. Check out some of the projects I did :) </p>
+            </div>
+
+            <!---experience sub section-->
+            <div class="about-containers">
+                <div class="experience-container">
+                    <img src="./images/experience-icon.png" alt="Experience icon" class="icon"/>
+                    <h3>Experience</h3>
+                    <p>5 years <br />Software Developer</p>
+                </div>
+
+                <div class="experience-container">
+                    <img src="./images/education-icon.jpg" alt="Education icon" class="icon"/>
+                    <h3>Education</h3>
+                    <p>B.Sc. Infocomm Technology<br />Diploma in Financial Business Informatics</p>
+                </div>
+            </div>
+
+
+            <!--skills sub section-->
+            
+            <h2><span>SKILLS</span></h2>
+
+            <div class="skills-container">
+            <div class="article-container">
+
+                <article>
+                    <img src="./images/javascript.png"  alt="Experienc-icon" class="icon"/>
+                </article>
+
+                <article>
+                    <img src="./images/angular.png" alt="Experienc-icon" class="icon"/>
+                </article>
+
+                 <!---Spring-->
+                 <article>
+                    <img src="./images/spring.png" alt="Experienc-icon" class="icon"/>
+                </article>
+
+                <!---Flask-->
+                <article>
+                    <img src="./images/python.png" alt="Experienc-icon" class="icon"/>
+                </article>
+
+                <article>
+                    <img src="./images/pandas.svg" alt="Experience icon" class="icon"/>
+                </article>
+
+                <article>
+                    <img src="./images/css.png" alt="Experience icon" class="icon"/>
+                </article>
+
+                <article>
+                    <img src="./images/html.png" alt="Experience icon" class="icon"/>
+                </article>
+
+                <!---PHP-->
+                <article>
+                    <!--div><h3>PHP</h3></div-->
+                    <img src="./images/php.png"  alt="Experience icon" class="icon"/>
+                </article>
+
+                <article>
+                    <img src="./images/postgresql.png" alt="Experience icon" class="icon"/>
+                </article>
+
+                <!---MySQL-->
+                <article>
+                    <img src="./images/mysql.png" alt="Experienc-icon" class="icon"/>
+                </article>
+
+                <!---MySQL-->
+                <article>
+                    <img src="./images/linux.png" alt="Experienc-icon" class="icon"/>
+                </article>
+            </div>
+
+            </div>
+
+
+        </div>
+        <!---img src="images/profile-pic.png"--->
+    </section>
+
+
+    <!---PROJECTS--->
+    <section id="projects">
+        <h1 class="header"><span>Projects</span></h1>
+        
+        <div class="projects-container">
+            <!---First Project-->
+            <div class="box">
+                <h1><span>Coffee Shop</span></h1>
+
+                <p>This is a coffee shop website. This project consists of both frontend and backend development. 
+                This website is built for customers to browse through menu and make their purchase. 
+                And as for backend, it allows admin to store user login id and password in database and able to add items in the menu.</p>
+                <div class="article-container">
+                    <img src="images/menu-1.jpg" alt="Project 1" class="project-img"/>
+                </div>
+                
+                <div class="btn-container">
+                    <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com/bintAsrari/coffeeshop'"> GitHub</button>
+                    <!--button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'"> Live Demo</button-->
+                    <!--Live Demo shows video of screen recording-->
+                </div>
+            
+
+            </div>
+
+            <!--Second Project-->
+            <div class="box">
+                <h1><span>Task Management</span></h1>
+
+                <p> This is a task management portal. This website aims to help employees to manage their task so they can see 
+                    in their dashboard the status of each task. Admins can also log in to this portal and 
+                    keep track of each employees pending tasks.</p>
+                <div class="article-container">
+                    <img src="images/task-mgmt.png" alt="Project 1" class="project-img"/>
+                </div>
+                <div class="btn-container">
+                    <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com/bintAsrari/Task-management'"> GitHub</button>
+                    <!--button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'"> Live Demo</button-->
+                    <!--Live Demo shows video of screen recording-->
+                </div>
+    
+
+            </div>
+        </div>
+    </section>
+
+    <!----CONTACT SECTION--->
+    <section id="contact">
+        <h1 class="header"><span>Contact Me</span></h1>
+    
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                <input type ="hidden" name="access_key" value="f5e697d0-5896-47f9-96a6-ad46c0d17bc1">
+                <input type="text" name="name" placeholder="Enter Your Full Name" class="contact-input">
+                <input type="text" name="email" placeholder="Enter Your Email" class="contact-input">
+                <textarea name="message" placeholder="Anything I can help you with?" class="contact-input"></textarea>
+                <button type="submit">Submit</button>
+           
+            </form>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="col-left">
+            <div class="col-box">
+                <span><i class='bx bxs-location-plus'></i></span>
+                <span>Singapore</span>
+            </div>
+
+            <div class="col-box">
+                <span><i class='bx bxs-envelope'></i></span>
+                <span>bintAsrari03@gmail.com</span>
+            </div>
+        </div>
+
+        <div class="col-right">
+            <span>About My Services</span>
+            <p>I recently started creating websites for small businesses. You can contact me if you're interested to know more!</p>
+
+            <div class="social-icons">
+                <span><a href="https://sg.linkedin.com/in/nur-amirah-asrari"><i class='bx bxl-linkedin-square'></i></a></span>
+                <span><a href="https://github.com/bintAsrari"><i class='bx bxl-github'></i></a></span>
+            </div>
+        </div>
+    </footer>
+<!--custom js file-->
+<script src="js/script.js"></script>
+</body>
+</html>
